@@ -4,8 +4,10 @@ I was getting frustrated with my modem rebooting every few hours.  Research show
 
 ## check-modem.ps1
 
-Pulls Signal Data and System Uptime from Motorola Surfboard status pages.
-saves output to file which can be parsed into csv by parse-output.ps1
+Pulls Signal Data and System Uptime from Motorola Surfboard status pages.  Saves output to file which can be parsed into csv by parse-output.ps1.  Can be run with the following command to create an output file every minute.
+```
+> while($true){.\check-modem.ps1;sleep 60}
+```
 
 sample output:
 ```
