@@ -1,3 +1,7 @@
+# Monitor Motorola Surfboard modem signal levels
+
+I was getting frustrated with my modem rebooting every few hours.  Research showed my upstream power levels were near the upper end of the recommended maximum levels and I wanted to track/graph over time.
+
 ## check-modem.ps1
 
 Pulls Signal Data and System Uptime from Motorola Surfboard status pages.
