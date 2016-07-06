@@ -105,6 +105,7 @@ TimeStamp, up to 3 upstream channel power level readings, and the current system
 
 sample output:
 ```
+TimeStamp,Upstream1(dBmV),Upstream2(dBmV),Upstream3(dBmV),ModemUpTime(min)
 07/06/2016 16:10:48,52,54,54,159
 07/06/2016 16:11:58,52,54,54,161
 07/06/2016 16:13:08,52,54,54,162
